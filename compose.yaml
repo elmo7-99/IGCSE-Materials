@@ -1,0 +1,26 @@
+services:
+  orders:
+    build: .
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      BIND_HOST: 0.0.0.0
+    ports:
+      - "127.0.0.1:8080:8080"
+    volumes:
+      - orders_data:/app/data
+  n8n:
+    image: ${N8N_IMAGE:?Set N8N_IMAGE to a reviewed version or image digest}
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:5678:5678"
+    environment:
+      N8N_ENCRYPTION_KEY: ${N8N_ENCRYPTION_KEY:?Set N8N_ENCRYPTION_KEY}
+      N8N_HOST: ${N8N_HOST:-localhost}
+      WEBHOOK_URL: ${N8N_WEBHOOK_URL:-http://localhost:5678/}
+      GENERIC_TIMEZONE: Asia/Dubai
+    volumes:
+      - n8n_data:/home/node/.n8n
+volumes:
+  orders_data:
+  n8n_data:

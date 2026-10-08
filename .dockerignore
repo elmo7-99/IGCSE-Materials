@@ -1,0 +1,9 @@
+.git
+.env
+.env.*
+data
+receipts
+__pycache__
+tests
+*.sqlite3
+*.zip

@@ -1,0 +1,229 @@
+{
+  "organization": "Egyptian Club – Al Ain",
+  "currency": "AED",
+  "price_source": "J27_Packages_Final_Formatted.docx; latest supplied 2026-10-08; table dated 2026-10-07",
+  "packages": [
+    {
+      "sku": "PHY-01",
+      "name": "OL Cambridge J27",
+      "teacher": "م. حسين خالد",
+      "subject": "Physics",
+      "books": 4,
+      "pages": 1721,
+      "price_fils": 29000,
+      "active": true,
+      "image_url": ""
+    },
+    {
+      "sku": "PHY-02",
+      "name": "OL Edexcel J27",
+      "teacher": "م. حسين خالد",
+      "subject": "Physics",
+      "books": 6,
+      "pages": 2280,
+      "price_fils": 38000,
+      "active": true,
+      "image_url": ""
+    },
+    {
+      "sku": "PHY-03",
+      "name": "AS Edexcel J27",
+      "teacher": "م. حسين خالد",
+      "subject": "Physics",
+      "books": 5,
+      "pages": 1258,
+      "price_fils": 22000,
+      "active": true,
+      "image_url": ""
+    },
+    {
+      "sku": "PHY-04",
+      "name": "Combined Science J27",
+      "teacher": "م. حسين خالد",
+      "subject": "Physics",
+      "books": 3,
+      "pages": 854,
+      "price_fils": 15000,
+      "active": true,
+      "image_url": ""
+    },
+    {
+      "sku": "PHY-05",
+      "name": "Core J27",
+      "teacher": "م. حسين خالد",
+      "subject": "Physics",
+      "books": 4,
+      "pages": 1572,
+      "price_fils": 25000,
+      "active": true,
+      "image_url": ""
+    },
+    {
+      "sku": "PHY-06",
+      "name": "Nile O-Level",
+      "teacher": "م. حسين خالد",
+      "subject": "Physics",
+      "books": 4,
+      "pages": 480,
+      "price_fils": 22000,
+      "active": true,
+      "image_url": ""
+    },
+    {
+      "sku": "CHEM-01",
+      "name": "OL Edexcel Linear",
+      "teacher": "د. بيتر ألفريد",
+      "subject": "Chemistry",
+      "books": 6,
+      "pages": 2573,
+      "price_fils": 35000,
+      "active": true,
+      "image_url": ""
+    },
+    {
+      "sku": "CHEM-02",
+      "name": "OL Edexcel Unit 1",
+      "teacher": "د. بيتر ألفريد",
+      "subject": "Chemistry",
+      "books": 4,
+      "pages": 1500,
+      "price_fils": 22000,
+      "active": true,
+      "image_url": ""
+    },
+    {
+      "sku": "CHEM-03",
+      "name": "OL Edexcel Unit 2",
+      "teacher": "د. بيتر ألفريد",
+      "subject": "Chemistry",
+      "books": 4,
+      "pages": 1309,
+      "price_fils": 22000,
+      "active": true,
+      "image_url": ""
+    },
+    {
+      "sku": "CHEM-04",
+      "name": "OL Cambridge J27",
+      "teacher": "د. بيتر ألفريد",
+      "subject": "Chemistry",
+      "books": 7,
+      "pages": 3154,
+      "price_fils": 38000,
+      "active": true,
+      "image_url": ""
+    },
+    {
+      "sku": "CHEM-05",
+      "name": "AS Edexcel Unit 1",
+      "teacher": "د. بيتر ألفريد",
+      "subject": "Chemistry",
+      "books": 3,
+      "pages": 721,
+      "price_fils": 12000,
+      "active": true,
+      "image_url": ""
+    },
+    {
+      "sku": "CHEM-06",
+      "name": "AS Edexcel Unit 2",
+      "teacher": "د. بيتر ألفريد",
+      "subject": "Chemistry",
+      "books": 3,
+      "pages": 692,
+      "price_fils": 12000,
+      "active": true,
+      "image_url": ""
+    },
+    {
+      "sku": "CHEM-07",
+      "name": "Y9",
+      "teacher": "د. بيتر ألفريد",
+      "subject": "Chemistry",
+      "books": 6,
+      "pages": 2848,
+      "price_fils": 30000,
+      "active": true,
+      "image_url": ""
+    },
+    {
+      "sku": "MATH-01",
+      "name": "OL",
+      "teacher": "د. مينا عدلي",
+      "subject": "Mathematics",
+      "books": 6,
+      "pages": 2096,
+      "price_fils": 30000,
+      "active": true,
+      "image_url": ""
+    },
+    {
+      "sku": "CHEM-08",
+      "name": "OL Edexcel Complete — Linear + U1 + U2",
+      "teacher": "د. بيتر ألفريد",
+      "subject": "Chemistry",
+      "books": 14,
+      "pages": 5382,
+      "price_fils": 62000,
+      "active": true,
+      "image_url": ""
+    },
+    {
+      "sku": "CHEM-09",
+      "name": "AS Edexcel Complete — U1 + U2",
+      "teacher": "د. بيتر ألفريد",
+      "subject": "Chemistry",
+      "books": 6,
+      "pages": 1413,
+      "price_fils": 22500,
+      "active": true,
+      "image_url": ""
+    }
+  ],
+  "delivery_fils": {},
+  "bank": {
+    "name": "ADIB",
+    "holder": "",
+    "iban": ""
+  },
+  "templates": {
+    "ar": {
+      "intro": "",
+      "update": "",
+      "workorder": ""
+    },
+    "en": {
+      "intro": "",
+      "update": ""
+    }
+  },
+  "template_language_codes": {
+    "ar": "ar",
+    "en": "en"
+  },
+  "request_aliases": {
+    "Chemistry": {
+      "Ol Cambridge": "CHEM-04"
+    },
+    "Physics": {
+      "Ol Cambridge": "PHY-01",
+      "Ol Edexcel": "PHY-02"
+    }
+  },
+  "unpriced_requests": {
+    "Mathematics": [
+      "As Cambridge"
+    ]
+  },
+  "internal_recipients": {
+    "printing": "",
+    "packing": "",
+    "delivery": ""
+  },
+  "source_sheet": {
+    "spreadsheet_id": "YOUR_SPREADSHEET_ID",
+    "tab": "ردود النموذج 1",
+    "contact_column": "Parent's Phone Number"
+  },
+  "require_packing_confirmation": true
+}
